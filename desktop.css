@@ -1,0 +1,132 @@
+
+
+/* Navbar start here */
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+
+.navlogos.logos{
+    
+    text-align: left;
+}
+.navtitle h1{
+    
+    text-align:center ;
+    padding: 20px 0 0 0;
+}
+.navlinks{
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 35px 30px 0 0;
+    
+}
+.navlinks a{
+    margin: 7px;
+    padding: 10px;
+}
+/* Navbar end here */
+
+/* profile style start here */
+.topsunimage{
+    
+    right: 90px;
+    width: 120px;
+    transition: transform 2s;
+}
+.topsunimage:hover{
+    width: 140px;
+}
+.profiledes p{
+    text-align: center;
+    margin: 20px auto;
+    color: white;
+    width: 50%;
+}
+.bottomsunimage{
+    
+    left: 90px;
+    width: 120px;
+    transition: transform 2s;
+    margin: 10px;
+}
+.bottomsunimage:hover{
+    width: 140px;
+}
+/* profile style end here */
+
+/* about me start here */
+
+.aboutimg{
+    margin-top: 140px;
+}
+.image{
+    width: 170px;
+    height: 200px;
+
+}
+.aboutdes p{
+    text-align: left;
+}
+
+
+/* about me end here */
+
+/* professional experience start here */
+
+.professional{
+    padding: 1% 3%;
+}
+
+/* professional experience end here */
+
+/* achivement contact start here */
+
+.achivement{
+    padding-right: 50px;
+}
+.form button{
+    width: 150px;
+}
+.btn{
+    margin: 5px;
+
+}
+.contactslink{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 230px;
+}
+/* achivement contact end here */
+
+.footer{
+    margin-top: 15px;
+}
+.footericon{
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.footericon a{
+    display: inline;
+    margin: 5px;
+    padding: 0;
+    text-align: left;
+}
+.footerdes p{
+    text-align: right;
+}
